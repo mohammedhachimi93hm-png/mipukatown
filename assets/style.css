@@ -46,6 +46,7 @@ footer a{color:#fff;text-decoration:none;margin-right:18px}footer a:hover{text-d
 .ghead img.tlogo{max-height:150px;width:auto;margin-bottom:12px}
 .ghead p{font-size:1.15rem;color:#e6e0f3;margin:0 0 20px;max-width:620px}
 .ghead .soon{display:inline-block;margin-left:16px;color:#cfc6e0;font-size:.95rem;font-weight:500}
+.ghead h1.tname{font-size:clamp(2rem,4.5vw,3rem);line-height:1.1;margin:0 0 14px;color:#fff}
 @media (max-width:640px){.ghead .soon{display:block;margin:16px 0 0}}
 .shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
 .shots img{border-radius:18px;box-shadow:0 10px 24px rgba(42,33,64,.15);width:100%;aspect-ratio:16/9;object-fit:cover}
