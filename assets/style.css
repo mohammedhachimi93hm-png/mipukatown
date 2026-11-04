@@ -45,6 +45,8 @@ footer a{color:#fff;text-decoration:none;margin-right:18px}footer a:hover{text-d
 .ghead img.icon{width:170px;height:170px;border-radius:38px;box-shadow:0 14px 30px rgba(0,0,0,.4)}
 .ghead img.tlogo{max-height:150px;width:auto;margin-bottom:12px}
 .ghead p{font-size:1.15rem;color:#e6e0f3;margin:0 0 20px;max-width:620px}
+.ghead .soon{display:inline-block;margin-left:16px;color:#cfc6e0;font-size:.95rem;font-weight:500}
+@media (max-width:640px){.ghead .soon{display:block;margin:16px 0 0}}
 .shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
 .shots img{border-radius:18px;box-shadow:0 10px 24px rgba(42,33,64,.15);width:100%;aspect-ratio:16/9;object-fit:cover}
 .feat{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;list-style:none;padding:0;margin:0}
